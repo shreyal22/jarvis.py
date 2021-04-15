@@ -85,9 +85,7 @@ while True:
       elif "spotify" in query:
           webbrowser.open("spotify.com")
           continue
-      elif  "amazon" in query:
-          webbrowser.open("https://www.amazon.in/gp/cart/view.html?ref_=nav_cart")
-          break
+     
       elif "flipkart" in query:
           webbrowser.open("https://www.flipkart.com/")
           break
@@ -125,11 +123,7 @@ while True:
           tem=webbrowser.open("https://www.google.com/search?q=temperature+in+chittorgarh&oq=temp&aqs=chrome.0.69i59j0i433j69i57j0i131i433j0i433j0j69i60l2.4241j1j7&sourceid=chrome&ie=UTF-8")
           speak(tem)
           continue
-      elif "photos" in query:
-          webbrowser.open("https://photos.google.com/?tab=rq&pageId=none")
-      elif "good job" in query:
-          speak("really?   thank you sir,you hardly appreciate but i really appreciate that you have appreciated me sir")
-          break
+      
       elif "bye" in query:
           speak("bye bye sir")
           break
@@ -140,8 +134,6 @@ while True:
           speak("anything and everything sir")
       elif "rain" in query:
           webbrowser.open("https://www.google.com/search?q=will+it+rain+today&gs_ivs=1#tts=0")
-      elif "meetings" in query:
-          speak("showing sir")
-          webbrowser.open("https://meet.google.com/?hs=197&pli=1&authuser=0")
+     
       elif "news" in query:
           webbrowser.open("https://news.google.com/topstories?tab=Cn&hl=en-IN&gl=IN&ceid=IN:en")
